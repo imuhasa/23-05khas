@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    @import: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:ital,wght@0,700;1,400&display=swap');
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    width: 1920px;
+    background: url(./img/background.png) no-repeat;
+}
+.first-screen{
+    display: flex;
+    flex-direction: column;
+}
+.first-screen__block{
+    display: flex;
+    background-color: rgba(0, 91, 193, 0.6);
+}
+.logo{
+    width: 140px;
+    height: 58px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    margin-left: 40px;
+}
+.top__menu{
+    margin: auto;
+}
+.menu__list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.list__point{
+    margin-top: 28px;
+    margin-bottom: 28px;
+    margin-right: 26px;
+}
+.point__link{
+    text-decoration: none;
+    color: white;
+}
+.first-screen__content{
+    margin: auto;
+    margin-top: 202px;
+}
+.content__header{
+    color: white;
+    margin-bottom: 40px;
+}
+.content__text{
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.content__move{
+    margin-top: 40px;
+    padding: 40px, 15px;
+    width: 160px;
+    height: 51px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 0.05em;
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0);
+    border: white 2px solid;
+    
+}
+.content__block{
+    background-color: rgba(0, 91, 193, 0.6);
+    margin-top: -484px;
+    margin-left: -190px;
+    width: 444px;
+    height: 716px;
+}
